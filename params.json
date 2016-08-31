@@ -1,0 +1,6 @@
+{
+  "name": "Maths Units",
+  "tagline": "No description or website provided.",
+  "body": "# Maths Units\r\n\r\nConveniently convert numbers from a trigonometric unit system\r\nto radians.  Designed for use with trig functions in the `Math`\r\nmodule.\r\n\r\n### Examples\r\n\r\n~~~ruby\r\nMath.sin 60.degrees         #=> 0.866...\r\nMath.cos 200.grad           #=> -1.0\r\nMath.sin(45.deg) + Math.cos(45.deg)  #=> 1.414...\r\nMath.cosh Math::PI.radians  #=> 11.59...\r\n~~~\r\n\r\n[![Build Status](https://secure.travis-ci.org/phluid61/maths-units.png)](http://travis-ci.org/phluid61/maths-units)\r\n[![Gem Version](https://badge.fury.io/rb/maths-units.png)](http://badge.fury.io/rb/maths-units)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
