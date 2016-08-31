@@ -1,0 +1,16 @@
+branches:
+  except:
+#    - gh-pages
+language: ruby
+rvm:
+#  - ruby-trunk
+  - "2.3.1"
+  - "2.2.5"
+  - jruby-19mode
+  - rbx-2
+matrix:
+  allow_failures:
+#    - rvm: ruby-trunk
+    - rvm: jruby-19mode
+    - rvm: rbx-2
+script: "bundle exec rake test"
