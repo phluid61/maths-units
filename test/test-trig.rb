@@ -16,7 +16,7 @@ class Test_trig < Test::Unit::TestCase
       [0,       0.0],
       [180,     Math::PI],
       [360.0,   Math::PI * 2.0],
-      [60/1r,   Math::PI / 3.0],
+      [Rational(60,1), Math::PI / 3.0],
       [-90.0,  -Math::PI / 2.0],
     ]
     arr.each do |d, x|
@@ -30,7 +30,7 @@ class Test_trig < Test::Unit::TestCase
       [0,       0.0],
       [200,     Math::PI],
       [400.0,   Math::PI * 2.0],
-      [50/1r,   Math::PI / 4.0],
+      [Rational(50,1), Math::PI / 4.0],
       [-100.0, -Math::PI / 2.0],
     ]
     arr.each do |g, x|
